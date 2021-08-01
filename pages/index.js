@@ -63,13 +63,13 @@ export default function Home() {
           </div>
 
           <div>
-            <p>Screen Recording</p>
-            <button className={styles.button} onClick={handleScreenRecording}>Start</button>
+            <p>Video Recording</p>
+            <button className={styles.button} onClick={handleVideoRecording}>Start</button>
           </div>
 
           <div>
-            <p>Video Recording</p>
-            <button className={styles.button} onClick={handleVideoRecording}>Start</button>
+            <p>Screen Recording</p>
+            <button className={styles.button} onClick={handleScreenRecording}>Start</button>
           </div>
         </div>
 
